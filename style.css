@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap');
 
 * {
-	background-color: #ebebeb;
+	background-color: #EFEFEF;
 }
 a {
-	color: rgb(223, 50, 50);
+	color: #CF620B;
 }
 .links {
 	max-width: 600px;
@@ -27,7 +27,3 @@ body {
 	line-height: 1.5;
 	font-family: 'Roboto';
 } 
-
-/*p {
-	font-family: Helvetica, sans-serif;
-}*/
