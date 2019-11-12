@@ -1,9 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Proza+Libre:500,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap');
 
-body{
+* {
 	background-color: #ebebeb;
 }
-
-p {
-	font-family: Helvetica, sans-serif;
+a {
+	color: rgb(223, 50, 50);
 }
+.links {
+	max-width: 600px;
+	display: inline-block;
+	font-family: 'Roboto';
+}
+body {
+	max-width: 600px;
+	margin-left: 5%;
+	display: inline-block;
+}
+.title {
+	line-height: .5em;
+	font-family: 'Roboto';
+	font-size: 50px;
+}
+.entry {
+	text-align: left;
+	line-height: 1.5;
+	font-family: 'Roboto';
+} 
+
+/*p {
+	font-family: Helvetica, sans-serif;
+}*/
