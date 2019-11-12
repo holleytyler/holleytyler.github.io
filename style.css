@@ -20,6 +20,7 @@ a {
 	font-family: 'Roboto';
 }
 body {
+	font-color: #1D1D1D;
 	max-width: 600px;
 	margin-left: 5%;
 	margin-top: 5%
