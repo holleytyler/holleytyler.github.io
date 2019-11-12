@@ -1,11 +1,17 @@
 /*@import url('https://fonts.googleapis.com/css?family=Proza+Libre:500,500i,700,700i&display=swap');*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:400,400i&display=swap');
 
 @font-face {
 	font-family: "URWDIN-Demi";
 
 	src: url("./fonts/URWDIN-Demi.woff") format("woff"), /* Modern Browsers */
 		  url("./fonts/URWDIN-Demi.woff2") format("woff2"); /* Modern Browsers */
+	font-family: 'urw_dindemi';
+	src: url('urwdin-demi-webfont.woff2') format('woff2'),
+		 url('urwdin-demi-webfont.woff') format('woff'),
+		 url('urwdin-demi-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 * {
@@ -28,7 +34,7 @@ body {
 }
 .title {
 	line-height: .5em;
-	font-family: 'URWDIN-Demi';
+	font-family: 'Roboto Slab';
 	font-size: 40px;
 }
 .entry {
