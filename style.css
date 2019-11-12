@@ -15,6 +15,7 @@ a {
 body {
 	max-width: 600px;
 	margin-left: 5%;
+	margin-top: 5%
 	display: inline-block;
 }
 .title {
